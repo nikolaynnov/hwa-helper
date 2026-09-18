@@ -30,7 +30,9 @@ storage — local storage described above; notifications — to report the resul
 
 ## Limited use
 
-This extension's use of information received from Chrome APIs and from the sites it is allowed to access adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. The data is used only to provide the single user-facing feature described above — keeping your hero and titan power values up to date in your guild's bot. It is not transferred to anyone else, it is never used for advertising, profiling, market research or any form of monetization, and no human reads it.
+The use of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements.
+
+The same applies to everything the extension reads on the sites it is allowed to access. The data is used only to provide the single user-facing feature described above — keeping your hero and titan power values up to date in your guild's bot. It is not transferred to anyone else, it is never used for advertising, profiling, market research or any form of monetization, and no human reads it.
 
 ## Contact
 
