@@ -8,7 +8,7 @@ The extension keeps your hero and titan power values in your guild's Telegram bo
 
 While you have the game open at hero-wars-alliance.com, the extension reads the game's own network responses on that page to obtain your hero and titan roster (unit id, power, level, equipped talisman) and your guild's id and name. It reads nothing else on the page and does not read pages of other sites.
 
-When the bot's mini app (archery.devmsk.com) is open inside Telegram Web, the extension reads the mini app's own responses to obtain the power values the bot currently stores for you, and the mini app's own access parameters, so that it can call the bot's API from that same page on your behalf.
+When the bot's mini app (archery.devmsk.com) is open inside Telegram Web, the extension reads the mini app's own responses to obtain the power values the bot currently stores for you, and the mini app's own access parameters, so that it can call the bot's API from that same page on your behalf. Those access parameters are an authentication token plus the sign-in string Telegram itself issues to the mini app; that string identifies your Telegram account. The extension copies it verbatim, does not decode it and returns it only to the service that issued it.
 
 ## What it stores
 
@@ -27,6 +27,10 @@ To reach the bot, the extension opens web.telegram.org in a background tab and p
 ## Permissions
 
 storage — local storage described above; notifications — to report the result; tabs — to open and close the Telegram tab; host access to hero-wars-alliance.com, web.telegram.org and archery.devmsk.com — for the reading and sending described above.
+
+## Limited use
+
+This extension's use of information received from Chrome APIs and from the sites it is allowed to access adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. The data is used only to provide the single user-facing feature described above — keeping your hero and titan power values up to date in your guild's bot. It is not transferred to anyone else, it is never used for advertising, profiling, market research or any form of monetization, and no human reads it.
 
 ## Contact
 
